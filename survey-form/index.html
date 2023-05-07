@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styes/style.css" />
+  </head>
+  <body>
+    <main>
+      <div>Login</div>
+      <form action="">
+        <fieldset>
+          <legend>Register:</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="enter your name" />
+          <label for="addres">Addres:</label>
+          <input type="text" id="addres" placeholder="enter your addres" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="enter your email" />
+          <label for="number">Number:</label>
+          <input type="number" id="number" placeholder="enter your number" />
+          <h3>Please Select Your Favorite Programming</h3>
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+          <label for="html" style="display: inline-block">HTML</label><br />
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css" style="display: inline-block">CSS</label><br />
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+          <label style="display: inline-block" for="javascript"
+            >JavaScript</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Lorem ipsum dolor sit amet.</legend>
+          <label for="info">Info</label>
+          <textarea
+            id="info"
+            cols="150"
+            placeholder="Enter your information"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <button>submit</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+}
+
+.section-left {
+  width: 25%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.main h2 {
+  font-size: 40px;
+  margin-top: -10px;
+}
+.main-about p {
+  text-align: start;
+  font-size: 20px;
+}
+.main-about {
+  padding: 20px;
+}
+.main .stack {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.main img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-right {
+  width: 75%;
+  height: 100vh;
+  border: 2px solid #ccc;
+  background-color: #ccc;
+  text-align: center;
+}
+.section-right h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 5px;
+}
+.cards {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.cards div {
+  width: 33%;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid green;
+  padding: 20px;
+}
+.cards div img {
+  width: 200px;
+}
+.cards div h3 {
+  color: palevioletred;
+}
+.cards div p {
+  color: black;
+  font-weight: normal;
+}
